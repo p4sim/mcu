@@ -12,6 +12,7 @@ void protocol_task_init(api_t* device_api){
 };
 
 void protocol_task_handle(char* command_string){
+    // логика обработки полученной строки. Делим ее на команду и аргументы:
     char* command_name = command_string;
     char* command_args = NULL;
 

@@ -10,6 +10,4 @@ typedef struct
 } api_t;
 
 void protocol_task_init(api_t* device_api);
-
 void protocol_task_handle(char* command_string);
-
